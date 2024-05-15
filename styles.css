@@ -1,0 +1,118 @@
+body, html { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+}
+.top-bar, .search-bar { 
+    background: white;
+    z-index: 1000; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+}
+.icon, .clear-icon { 
+    cursor: pointer; 
+    font-size: 24px; 
+    border: 1px solid #ccc; 
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    border-radius: 5px; 
+    margin-left: 10px; 
+}
+.back-arrow {
+    cursor: pointer; 
+    font-size: 24px; 
+    padding: 5px; 
+    margin-right: 10px;
+}
+.recipe-card { 
+    margin: 10px; 
+    padding: 10px; 
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width: 300px; 
+    vertical-align: top; 
+    cursor: pointer; 
+}
+.recipe-card img { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+.search-item { 
+    display: flex; 
+    align-items: center; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin: 5px; 
+    cursor: pointer; 
+}
+.search-item img { 
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+.modal { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.5); 
+    display: none; 
+    align-items: center; 
+    justify-content: center; 
+}
+.modal-content { 
+    position: relative; 
+    background: white; 
+    padding: 20px; 
+    border-radius: 0; 
+    width: 100%; 
+    height: 100%; 
+    box-sizing: border-box; 
+    overflow-y: auto; 
+}
+#recipe-details img { 
+    width: 300px; 
+    height: 300px; 
+    border-radius: 12px; 
+    display: block; 
+    margin: 20px auto; 
+}
+.ingredient { 
+    display: flex; 
+    align-items: center; 
+    margin-top: 10px; 
+    width: 100%; 
+    clear: both; 
+    padding: 10px 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+.ingredient img { 
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+.ingredient p { 
+    margin: 0; 
+    flex-grow: 1; 
+    margin-left: 10px; 
+}
+input[type="text"] { 
+    padding: 10px; 
+    flex-grow: 1; 
+}
+.popular-heading { 
+    margin-left: 10px; 
+}
