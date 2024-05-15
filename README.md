@@ -1,2 +1,9 @@
 # Chef.In
-This website shows recipes about different food. The recipes are from Edamam api. 
+This website shows recipes about different food. The recipes are from Edamam api.
+Навигация:
+- Запускаем с файла index.html через Гугл браузер
+- В поиске 
+Проблемы моего проекта:
+- Отсутствует базы данных. Поэтому не получится авторизовать пользователя, добавить свой собственный рецепт, а также не получится осуществить чат между несколькими пользователям.
+- Дизайн не самый лучший. Использовал html и css, а также в некоторых местах использовал bootstrap, но все же не смог сделать красивый и user-friendly внешний вид. 
+- 
